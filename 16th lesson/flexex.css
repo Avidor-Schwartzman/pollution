@@ -1,0 +1,11 @@
+/* Add a responsive design for screens smaller than 600px */
+@media (max-width: 600px) {
+    header {
+      flex-direction: column;
+    }
+    nav a {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
